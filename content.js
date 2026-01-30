@@ -1,4 +1,4 @@
-// Define the SVG filters for different types of color blindness
+
 const filters = `
 <svg style="display:none">
   <filter id="protanopia"><feColorMatrix values="0.567, 0.433, 0, 0, 0, 0.558, 0.442, 0, 0, 0, 0, 0.242, 0.758, 0, 0, 0, 0, 0, 1, 0"/></filter>
@@ -13,4 +13,5 @@ chrome.runtime.onMessage.addListener((request) => {
   if (request.type === "CHANGE_VISION") {
     document.documentElement.style.filter = request.value === "none" ? "none" : `url(#${request.value})`;
   }
+
 });
