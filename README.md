@@ -1,13 +1,12 @@
 # 👁️ OpenIris
 
-**OpenIris** is a high-performance Chrome Extension designed to improve web accessibility for individuals with Color Vision Deficiency (CVD). It combines real-time webpage color correction with a scientific "Vision Lab" webcam simulation to help users navigate both the digital and physical worlds with clarity.
+**OpenIris** is a high-performance Chrome Extension designed to improve web accessibility for individuals with Color Vision Deficiency (CVD). It combines real-time webpage color correction  to help users navigate both the digital and physical worlds with clarity.
 
 ---
 
 ## ✨ Key Features
 
 - **Smart Web Correction**: Injects scientific SVG color matrices into any website to assist with Red, Green, and Blue deficiencies.
-- **Scientific Vision Lab**: A dedicated real-time webcam simulation tool for side-by-side comparison of normal vs. simulated vision.
 - **Comprehensive Profiles**: Supports both **Anopia** (Total Blindness) and **Anomaly** (Partial Weakness) for:
   - Protan (Red)
   - Deutan (Green)
