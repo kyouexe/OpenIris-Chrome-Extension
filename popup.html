@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="OpenIris Logo" class="logo">
+    <h1>OpenIris</h1>
+    <p class="subtitle">Select your vision type</p>
+    
+    <select id="visionType">
+      <option value="none">Normal Vision</option>
+      <optgroup label="Protan (Red-Weak)">
+        <option value="protanopia">Protanopia (Red-Blind)</option>
+        <option value="protanomaly">Protanomaly (Red-Weak)</option>
+      </optgroup>
+      <optgroup label="Deutan (Green-Weak)">
+        <option value="deuteranopia">Deuteranopia (Green-Blind)</option>
+        <option value="deuteranomaly">Deuteranomaly (Green-Weak)</option>
+      </optgroup>
+      <optgroup label="Tritan (Blue-Weak)">
+        <option value="tritanopia">Tritanopia (Blue-Blind)</option>
+        <option value="tritanomaly">Tritanomaly (Blue-Weak)</option>
+      </optgroup>
+      <optgroup label="Monochromacy">
+        <option value="achromatopsia">Achromatopsia (Total)</option>
+      </optgroup>
+    </select>
+
+    <button id="visitWebsite">Visit Our Website</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

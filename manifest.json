@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "OpenIris",
+  "version": "1.0",
+  "description": "Helping you perceive the world more clearly.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
