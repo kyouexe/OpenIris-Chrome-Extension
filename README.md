@@ -6,9 +6,6 @@
 
 # 👁️ OpenIris
 
-
-# 👁️ OpenIris
-
 **OpenIris** is a high-performance Chrome Extension designed to improve web accessibility for individuals with Color Vision Deficiency (CVD). It combines real-time webpage color correction  to help users navigate both the digital and physical worlds with clarity.
 
 ---
